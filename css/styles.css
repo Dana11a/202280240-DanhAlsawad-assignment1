@@ -6,6 +6,7 @@
   font-family: Arial, sans-serif;
 }
 
+/* Base body styling */
 body {
   line-height: 1.6;
   background: #f4f4f4;
@@ -13,7 +14,7 @@ body {
   transition: 0.3s;
 }
 
-
+/*  Header Styling */
 header {
   text-align: center;
   padding: 2rem;
@@ -21,7 +22,7 @@ header {
   color: white;
 }
 
-
+/* Navigation (Flexbox Layout) */
 nav {
   display: flex;
   justify-content: center;
@@ -30,6 +31,7 @@ nav {
   background: #eee;
 }
 
+/* Navigation links */
 nav a {
   text-decoration: none;
   color: #222;
@@ -39,23 +41,28 @@ nav a {
   transition: 0.2s;
 }
 
+/* Hover effect */
 nav a:hover {
   background: rgba(0, 0, 0, 0.08);
 }
 
+/* Active link styling */
 nav a.active {
   background: #0077cc;
   color: #fff;
 }
 
+/* Section Layout */
 .section {
   padding: 80px 10%;
 }
 
+/* Alternate background section */
 .section.alt {
   background: linear-gradient(135deg, #f5f7fa, #e4e8f0);
 }
 
+/* Content container card */
 .content-box {
   background: #fff;
   padding: 40px;
@@ -72,7 +79,7 @@ nav a.active {
   margin-bottom: 10px;
 }
 
-
+/* Project Images */
 .content-box img {
   width: 100%;
   max-width: 800px;
@@ -83,7 +90,7 @@ nav a.active {
   border-radius: 12px;
 }
 
-
+/* Contact Form Styling */
 form {
   display: flex;
   flex-direction: column;
@@ -103,6 +110,7 @@ textarea {
   resize: vertical;
 }
 
+/* Button styling */
 button {
   padding: 12px;
   background: #0077cc;
@@ -120,16 +128,19 @@ footer {
   color: #666;
 }
 
+/* Dark Mode */
 
 body.dark {
   background: #222;
   color: #fff;
 }
 
+/* Dark mode header */
 body.dark header {
   background: #111;
 }
 
+/* Dark mode navigation */
 body.dark nav {
   background: #222;
 }
@@ -152,6 +163,7 @@ body.dark .section.alt {
   background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
 }
 
+/* Dark mode card */
 body.dark .content-box {
   background: #222;
   color: #f4f4f4;
@@ -167,6 +179,7 @@ body.dark textarea {
 }
 
 
+/* Responsive Design */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
