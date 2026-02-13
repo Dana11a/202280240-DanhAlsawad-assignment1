@@ -41,6 +41,8 @@ The design supports both Dark and Light mode and adapts to desktop, tablet, and 
 ├── docs/
 │   ├── ai-usage-report.md
 │   └── technical-documentation.md
+│  
+└── .gitignore
 ```
 ---
 

@@ -21,6 +21,8 @@ This project is a static front-end portfolio website built using HTML, CSS, and 
 ├── docs/
 │   ├── ai-usage-report.md
 │   └── technical-documentation.md
+│
+└── .gitignore
 ```
 
 
