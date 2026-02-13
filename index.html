@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <!-- Character encoding -->
     <meta charset="UTF-8">
     <title>Danh Alsawad | Portfolio</title>
+     <!-- Responsive scaling for mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Link to external CSS file -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
 
+<body>
+    <!-- Header Section(Contains name + tagline)-->
 <header>
     <h1>Danh Alsawad</h1>
     <p class="tagline">Software Engineering Student | Building Clean & Practical Solutions</p>
+     <!-- Dark/Light mode toggle button -->
     <button id="theme-toggle">Toggle Dark Mode</button>
 </header>
 
+ <!--  Navigation Bar: Links scroll to sections  -->
 <nav>
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
 </nav>
+
+  <!--About Section-->
 <section id="about" class="section">
     <div class="content-box">
       <h2>About Me</h2>
@@ -30,14 +38,17 @@
       </p>
     </div>
   </section>
-  
+
+      <!-- Projects Section: Includes placeholder images-->
   <section id="projects" class="section alt">
     <div class="content-box">
       <h2>Projects</h2>
-  
+      <!-- Project 1 -->
       <h3>Meras Platform</h3>
       <p>A web platform helping students explore university majors through micro-internships.</p>
       <img src="assets/images/web.png" alt="Meras Screenshot">
+
+       <!-- Project 2 -->
       <h3>Horse Database System</h3>
       <p>Python & SQL system to manage horse records, owners, and trainers.</p>
       <img src="assets/images/sql1.png" alt="Horse Database Screenshot">
@@ -45,11 +56,13 @@
   </section>
   
 
+ <!--  Contact Section: Front-end only form-->
   <section id="contact" class="section">
     <div class="content-box">
       <h2>Contact Me</h2>
   
       <form>
+        <!-- Name input -->
         <label for="name">Name</label>
         <input 
           type="text" 
@@ -58,6 +71,7 @@
           placeholder="Your Name" 
           required>
       
+         <!-- Email input -->
         <label for="email">Email</label>
         <input 
           type="email" 
@@ -65,14 +79,15 @@
           name="email" 
           placeholder="Your Email" 
           required>
-      
+
+         <!-- Message textarea -->
         <label for="message">Message</label>
         <textarea 
           id="message" 
           name="message" 
           placeholder="Your Message" 
           required></textarea>
-      
+         <!-- Submit button -->
         <button type="submit">Send</button>
       </form>
       
@@ -80,11 +95,11 @@
     </div>
   </section>
   
-
+<!-- Footer -->
 <footer>
     <p>© 2026 Danh Alsawad</p>
 </footer>
-
+<!-- External JavaScript -->
 <script src="js/script.js"></script>
 </body>
 </html>
