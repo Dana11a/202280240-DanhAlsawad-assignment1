@@ -11,18 +11,18 @@ The design supports both Dark and Light mode and adapts to desktop, tablet, and 
 
 ## Features
 - Responsive design (mobile-friendly)
-- Dark / Light mode toggle
-- Styled content sections with modern layout
+- Dark / Light mode toggle using JavaScript
+- Styled content sectionst
 - Two project sections with images
 - Contact form (front-end only)
-- Clean folder structure
+
 
 ---
 
 ## Technologies Used
 - HTML5
-- CSS3 (Flexbox, Gradients, Responsive Design)
-- JavaScript (DOM Manipulation, Theme Toggle)
+- CSS3 (Flexbox, Media Queries)
+- JavaScript (DOM Manipulation for Theme Toggle)
 
 ---
 

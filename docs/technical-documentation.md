@@ -44,9 +44,10 @@ Handles:
 - Dark/Light theme styles
 
 ### script.js
-Handles:
-- Dark/Light theme toggle
-- Active navigation highlighting
+JavaScript was used to implement a dark/light theme toggle feature.
+A click event listener toggles a CSS class on the body element,
+which dynamically changes the website styling.
+
 
 ---
 
