@@ -187,3 +187,4 @@ body.dark textarea {
   }
 }
 
+html { scroll-behavior: smooth; }
