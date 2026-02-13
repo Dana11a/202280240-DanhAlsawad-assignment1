@@ -27,19 +27,21 @@ The design supports both Dark and Light mode and adapts to desktop, tablet, and 
 ---
 
 ## Folder Structure
-202280240-Danhalsawad-assignment-1/
+```
+202280240-DanhAlsawad-assignment-1/
+│
 ├── README.md
 ├── index.html
 ├── css/
-│ └── styles.css
+│   └── styles.css
 ├── js/
-│ └── script.js
+│   └── script.js
 ├── assets/
-│ └── images/
+│   └── images/
 ├── docs/
-│ ├── ai-usage-report.md
-│ └── technical-documentation.md
-
+│   ├── ai-usage-report.md
+│   └── technical-documentation.md
+```
 ---
 
 ## How to Run Locally
