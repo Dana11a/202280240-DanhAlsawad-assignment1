@@ -72,8 +72,12 @@ which dynamically changes the website styling.
 - Images stored in `assets/images`.
 - Styled using:
   - width: 100%
-  - object-fit
-  - border-radius
+  - max-width: 700px
+  - height: auto      
+  - object-fit: contain
+  - display: block
+  - margin: 15px auto 30px
+  - border-radius: 12px
 - Ensured proper responsiveness.
 
 ---
