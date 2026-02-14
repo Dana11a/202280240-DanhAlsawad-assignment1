@@ -6,6 +6,67 @@
   font-family: Arial, sans-serif;
 }
 
+/* 
+   HERO SECTION
+ */
+
+.hero {
+  background: #1877b6; 
+  color: white;
+
+  height: 90vh;       
+  display: flex;           
+  align-items: center;        
+  justify-content: center;    
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content {
+  max-width: 900px;
+}
+
+.hero-title {
+  font-size: 4rem;     
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #ffd166;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.hero-btn {
+  padding: 14px 28px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: white;
+  color: #1877b6;
+}
+
+.highlight {
+  color: #ffd166;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
 /* Base body styling */
 body {
   line-height: 1.6;
@@ -77,17 +138,25 @@ nav a.active {
 .content-box h3 {
   margin-top: 30px;
   margin-bottom: 10px;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
 /* Project Images */
 .content-box img {
   width: 100%;
-  max-width: 800px;
+  max-width: 700px;
   height: auto;        
   object-fit: contain; 
   display: block;
   margin: 15px auto 30px;
   border-radius: 12px;
+}
+
+
+.content-box p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
 }
 
 /* Contact Form Styling */
@@ -197,6 +266,18 @@ body.dark textarea {
 
   header {
     padding: 1.5rem;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
   }
 }
 
